@@ -1,0 +1,162 @@
+*{
+    text-decoration:none;
+}
+.header-container-l{
+ width:100%;
+ height:auto;
+ display: grid;
+ place-items: center;
+ grid-template-columns: 1fr 4fr 1fr;
+ padding: 0 1rem ;
+ /* position: sticky;
+ top: 0;
+ left: 0;
+ right: 0; */
+}
+.header-container-l-fixed{
+ width:100%;
+ height:auto;
+ display: grid;
+ place-items: center;
+ grid-template-columns: 1fr 4fr 1fr;
+ padding: 0 1rem ;
+ position: sticky;
+ top: 0;
+ left: 0;
+ right: 0;
+ background: white;
+ z-index: 1111111;
+ box-shadow: 2px 2px 3px 0 rgb(46 50 60 / 9%);
+
+}
+.nav-logo{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: inherit;
+ width: 100%;
+}
+
+
+.nav-img{
+ height: 24px;
+ width: 166px;
+}
+.header-link-container{
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+.header-links{
+ display: flex;
+ list-style: none;
+ margin-top: 1rem;
+}
+
+.header-linker{
+ margin-right: 1.5rem;
+ list-style: none;
+ padding: 0.5rem 1rem;
+
+}
+.header-item{
+ font-size: 0.9rem;
+  color: #75798f;
+ font-weight: 700;
+}
+.header-item:hover{
+color: #e70a3e;
+}
+.hiring{
+
+ border-left: 1px solid rgb(201, 196, 196);
+ font-weight: 700;
+ padding: 0 1.5rem;
+ display: grid;
+ place-items: center;
+ /* height: inherit;
+ font-size: 0.9rem; */
+ margin: 0px;
+    padding-top: 1px;
+    padding-right: 14px;
+    padding-left: 14px;
+    
+    color: #75798f;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.hiring-link{
+ color: #75798f;
+ font-size: 12px !important;
+ padding: 0.25rem 0.5rem;
+ background-color: white;
+ font-weight: 700;
+}
+.hiring-link:hover{
+ color: #75798f;
+}
+
+
+.header-login-container{
+ display: flex;
+ align-items: center;
+}
+
+.text-red-bold{
+ color: #e70a3e;
+ font-weight: 700;
+ text-decoration: none;
+
+}
+.text-red-bold:hover{
+ color: #e70a3e;
+}
+.get-started{
+ background-color: #e70a3e;
+ color: white;
+ padding: 0.5rem 0.5rem;
+ text-decoration: none;
+ margin-left: 1rem;
+ border-radius: 3px;
+ font-size: 0.9rem;
+ font-weight: 700;
+
+}
+.get-started:hover{
+ background-color: #e70a3e;
+ color: white;
+}
+.nav-bar{
+ display:none;
+
+}
+
+@media(max-width:1025px) {
+ .header-dis{
+  display: none;
+ }
+ .nav-bar{
+  display: block;
+  
+ }
+ .header-container-l{
+ width:100%;
+ height:auto;
+ display: grid;
+ place-items: center;
+ grid-template-columns: 1fr;
+ padding: 1.5rem 1rem ;
+
+}
+ .header-container-l-fixed{
+ width:100%;
+ height:auto;
+ display: grid;
+ place-items: center;
+ grid-template-columns: 1fr;
+ padding: 1.5rem 1rem ;
+
+}
+}
