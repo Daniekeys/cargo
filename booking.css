@@ -1,0 +1,49 @@
+@font-face{
+ src: './assets/Proxima Nova Font.otf';
+ font-family: 'Proxima'
+}
+*{
+ font-family: 'Proxima', sans-serif;
+
+}
+body{
+  font-family: 'Proxima', sans-serif;
+}
+
+.nav-img{
+ height: 24px;
+ width: 166px;
+}
+.section-booking-container{
+ width: 100%;
+ height: auto;
+ display: grid;
+ place-items: center;
+ margin-top: 1rem;
+
+}
+.booking-container{
+ width: 90%;
+ height: 80vh;
+ background-color: white;
+  box-shadow: 1px 1px 10px -1px #cfd2e0;
+  border-radius: 4px;
+  padding: 2rem;
+}
+.text-blue-1{
+ color: #1b2145;
+
+}
+.demi-bold{
+ font-weight: 600;
+
+}
+.bold{
+ font-weight: 500;
+}
+.booking-label{
+ color: #1b2145;
+ font-size: 14px;
+ font-weight: 600;
+ 
+}

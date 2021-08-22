@@ -1,5 +1,5 @@
 @font-face{
- src: '../../assets/Proxima Nova Font.otf';
+ src: './assets/Proxima Nova Font.otf';
  font-family: 'Proxima'
 }
 *{
