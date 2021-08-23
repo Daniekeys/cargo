@@ -15,6 +15,10 @@
 body{
   font-family: 'Proxima', sans-serif;
 }
+.error-inputs{
+  border: 1px solid #e70a3e !important;
+
+}
 .signin-container{
  width: 100%;
  height: auto;
@@ -24,9 +28,6 @@ body{
  background-color: #1b2145;
  /* padding: 1.5rem; */
  
-
-
-
 }
 .form-control::placeholder{
   opacity:0.6;

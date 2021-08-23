@@ -15,6 +15,10 @@ body{
      margin-top: 0;
      margin-bottom: 2rem;
 }
+.error-inputs{
+  border: 1px solid #e70a3e !important;
+
+}
 .instruction{
      color: #1b2145 !important;
      font-size: 0.875rem;
