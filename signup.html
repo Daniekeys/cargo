@@ -30,10 +30,9 @@
  <div class="col-sm-6">
        <div class="mb-3">
         <label for="firstname" class="form-label bold">Firstname</label>
-        <input required type="text" class="form-control form-control-lg" placeholder="Firstname" 
-         
-
+        <input required type="text" class="form-control form-control-lg" placeholder="Firstname"     
         />
+            <!-- error can be displayed here -->
         </div>
 
 
@@ -41,18 +40,19 @@
          <label for="exampleFormControlInput1" class="form-label bold">Email</label>
          <input required type="email" class="form-control form-control-lg" placeholder="name@example.com" 
          />
- 
+            <!-- error can be shown here -->
+            <small class="instruction">
+                  Input a valid email 
+            </small>
         </div>
      
          <div class="mb-3">
           <label for="password" class="form-label bold">Password</label>
           <input required type="password" class="form-control form-control-lg" placeholder="Enter password" />
-
-    
-    
-
- 
- 
+           <!--error can be shown here  -->
+            <small class="error">
+                  Input Password
+            </small>
  </div>
  </div>
  <div class="col-sm-6">
@@ -67,7 +67,9 @@
     <div class="mb-3">
      <label for="phone" class="form-label bold">Phone</label>
      <input required type="tel" class="form-control form-control-lg" placeholder="Phone number" />
-    
+      <small class="instruction">
+            +234 ....
+      </small>
     </div>
 
       
@@ -75,9 +77,14 @@
     <div class="mb-3">
    <label for="confirmpassword" class="form-label bold">Confirm Password</label>
    <input required type="password" class="form-control form-control-lg" placeholder="Enter Confirm Password" 
- 
-    
    />
+
+   <!-- Error can be show here -->
+
+<small class="error">
+      Password doesnt match
+</small>
+<!-- Error code should be placed above -->
   </div>    
   </div>
 

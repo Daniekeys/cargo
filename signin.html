@@ -7,7 +7,7 @@
  <title>Signin</title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
   crossorigin="anonymous">
-  <link rel="stylesheet" href="signin.css">
+  <link rel="stylesheet" href="signin.css" >
  <link rel="stylesheet" href="signup.css">
 </head>
 <body>
@@ -25,13 +25,18 @@
      <div class="mb-4">
       <label for="exampleFormControlInput1" class="form-label bold">Email</label>
       <input type="email" class="form-control form-control-lg" placeholder="name@example.com"  />
+          <small class="error">
+        Invalid username
+      </small>
      </div>
      <div class="mb-3">
       <label for="password" class="form-label bold">Password</label>
       <input type="password" class="form-control form-control-lg" placeholder="Enter password"  />
   
+      <small class="error">
+        Invalid password
+      </small>
      </div>
-  
      <a href="forgetpassword.html" class="text-faded mb-3">
      Forgot Password
      </a>
